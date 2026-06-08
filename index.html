@@ -3,80 +3,83 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SHINY 하이퍼블릭</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<title>셔츠/하퍼 | 정탄대표</title>
+
+<meta name="description" content="24시간 문의 가능. 전화 및 문자 상담 안내.">
+<meta name="robots" content="index,follow">
 
 <style>
-
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:'Noto Sans KR',sans-serif;
+font-family:sans-serif;
 }
 
 body{
-background:#000;
+background:#111;
 color:#fff;
+line-height:1.6;
 }
 
 .hero{
-height:100vh;
-background:
-linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.75)),
-url('room.jpg');
-background-size:cover;
-background-position:center;
-display:flex;
-justify-content:center;
-align-items:center;
+padding:80px 20px;
 text-align:center;
-padding:20px;
+background:linear-gradient(180deg,#222,#111);
 }
 
 .hero h1{
-font-size:60px;
-color:#d4af37;
-font-weight:900;
-letter-spacing:3px;
-}
-
-.hero h2{
-font-size:28px;
+font-size:42px;
 margin-bottom:15px;
-color:#fff;
 }
 
 .hero p{
-font-size:20px;
-margin-top:10px;
+font-size:18px;
+opacity:.9;
 }
 
 .phone{
-font-size:42px;
-font-weight:900;
+font-size:28px;
+font-weight:bold;
 margin-top:20px;
 }
 
-.btn-wrap{
-display:flex;
-gap:15px;
-justify-content:center;
-margin-top:35px;
-flex-wrap:wrap;
+.section{
+padding:40px 20px;
+max-width:900px;
+margin:auto;
 }
 
-.btn{
-padding:15px 35px;
-border-radius:50px;
+.card{
+background:#1b1b1b;
+padding:20px;
+border-radius:15px;
+margin-bottom:15px;
+}
+
+.card h2{
+margin-bottom:10px;
+}
+
+.buttons{
+position:fixed;
+left:0;
+bottom:0;
+width:100%;
+display:flex;
+}
+
+.buttons a{
+flex:1;
+text-align:center;
+padding:18px;
+font-weight:bold;
 text-decoration:none;
-font-size:18px;
-font-weight:700;
 }
 
 .call{
-background:#d4af37;
+background:#f0c14b;
 color:#000;
 }
 
@@ -85,238 +88,51 @@ background:#fff;
 color:#000;
 }
 
-.section{
-padding:80px 20px;
-max-width:1200px;
-margin:auto;
-}
-
-.title{
-text-align:center;
-font-size:50px;
-color:#d4af37;
-margin-bottom:50px;
-font-weight:900;
-}
-
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-}
-
-.card{
-background:#111;
-padding:35px;
-border-radius:20px;
-border:1px solid #222;
-text-align:center;
-}
-
-.card h3{
-color:#d4af37;
-margin-bottom:15px;
-font-size:28px;
-}
-
-.gallery{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:20px;
-}
-
-.gallery img{
-width:100%;
-border-radius:20px;
-}
-
-.location{
-background:#111;
-padding:40px;
-border-radius:20px;
-text-align:center;
-font-size:22px;
-line-height:1.8;
-}
-
-.footer-btn{
-position:fixed;
-bottom:0;
-left:0;
-width:100%;
-display:flex;
-z-index:999;
-}
-
-.footer-btn a{
-flex:1;
-text-align:center;
-padding:20px;
-font-size:22px;
-font-weight:800;
-text-decoration:none;
-}
-
-.footer-call{
-background:#d4af37;
-color:#000;
-}
-
-.footer-sms{
-background:#fff;
-color:#000;
-}
-
 footer{
-padding:80px 20px 120px;
+padding:30px 20px 100px;
 text-align:center;
-background:#111;
+opacity:.8;
 }
-
-footer h2{
-font-size:50px;
-margin-bottom:15px;
-}
-
-@media(max-width:768px){
-
-.hero h1{
-font-size:42px;
-}
-
-.phone{
-font-size:30px;
-}
-
-.title{
-font-size:38px;
-}
-
-}
-
 </style>
 </head>
-
 <body>
 
 <section class="hero">
-
-<div>
-
-<h2>강남 · 역삼 NO.1</h2>
-
-<h1>SHINY</h1>
-
-<p>24시 하이퍼블릭</p>
+<h1>업체 소개</h1>
+<p>24시간 문의 가능</p>
 
 <div class="phone">
 정탄대표<br>
 010-8325-4332
 </div>
-
-<div class="btn-wrap">
-
-<a class="btn call"
-href="tel:01083254332">
-📞 전화문의
-</a>
-
-<a class="btn sms"
-href="sms:01083254332">
-💬 문자문의
-</a>
-
-</div>
-
-</div>
-
 </section>
 
 <section class="section">
 
-<h2 class="title">SHINY 하이퍼블릭</h2>
-
-<div class="cards">
-
 <div class="card">
-<h3>24시간 운영</h3>
-<p>언제든 편하게 문의 가능합니다.</p>
+<h2>운영 안내</h2>
+<p>전화 및 문자로 문의하실 수 있습니다.</p>
 </div>
 
 <div class="card">
-<h3>프리미엄 시설</h3>
-<p>고급 인테리어와 쾌적한 공간.</p>
+<h2>위치 안내</h2>
+<p>을지로3가 / 강남역 인근</p>
 </div>
 
 <div class="card">
-<h3>프라이빗 룸</h3>
-<p>편안하고 프라이빗한 공간.</p>
-</div>
-
-<div class="card">
-<h3>신속 상담</h3>
-<p>전화 · 문자 문의 환영.</p>
-</div>
-
-</div>
-
-</section>
-
-<section class="section">
-
-<h2 class="title">VIP ROOM</h2>
-
-<div class="gallery">
-
-<img src="room.jpg">
-<img src="building.jpg">
-
-</div>
-
-</section>
-
-<section class="section">
-
-<h2 class="title">위치 안내</h2>
-
-<div class="location">
-
-서울 강남구 역삼로 113<br>
-오성빌딩<br><br>
-
-24시간 상담 가능<br>
-예약 및 방문 문의 환영
-
+<h2>문의</h2>
+<p>연중무휴 상담 가능</p>
 </div>
 
 </section>
 
 <footer>
-
-<h2>정탄대표</h2>
-
-<p style="font-size:35px;font-weight:900;">
-010-8325-4332
-</p>
-
-<p style="margin-top:15px;">
-24시간 상담 가능
-</p>
-
+셔츠/하퍼 정탄대표 · 010-8325-4332
 </footer>
 
-<div class="footer-btn">
-
-<a href="tel:01083254332"
-class="footer-call">
-📞 전화문의
-</a>
-
-<a href="sms:01083254332"
-class="footer-sms">
-💬 문자문의
-</a>
-
+<div class="buttons">
+<a href="tel:01083254332" class="call">📞 전화문의</a>
+<a href="sms:01083254332" class="sms">💬 문자문의</a>
 </div>
 
 </body>
